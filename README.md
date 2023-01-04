@@ -9,6 +9,16 @@ para correr el juego debes seguir las siguientes instrucciones en la terminal
 cd game
 python3 main.py
 ```
+# App proyecto
+
+´´´sh
+git clone
+cd app
+source env/bin/activate
+pip3 isntall -r requirements.txt 
+python3 main.py
+´´´
+
 
 # descripción 
 README.md es un archivo de texto que se encuentra en la raíz de muchos repositorios de software en GitHub. El archivo README se utiliza para proporcionar información general sobre el proyecto y orientar a otros desarrolladores o usuarios sobre cómo utilizar y contribuir al proyecto.
@@ -52,8 +62,8 @@ __Si quieres instalar paquetes adicionales en el ambiente virtual, puedes usar e
 __
 
 # comandos para crear entornos virtuales con python 
-Hola Chicos! 😄
-Verificar donde esta python y pip
+# Hola Chicos! 😄
+'''Verificar donde esta python y pip
 
 which python3
 
@@ -75,5 +85,3 @@ Podemos instalar las librerias necesarias en el ambiente virtual como por ejempl
 
 pip3 install matplotlib==3.5.0
 Verificar las instalaciones
-
-pip3 freeze
